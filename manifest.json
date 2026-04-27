@@ -1,0 +1,10 @@
+{
+  "name": "xai-tts",
+  "author": "Community",
+  "version": "2.0.0",
+  "display_name": "xAI TTS",
+  "description": "Native xAI TTS provider (Eve, Ara, Leo, Rex, Sal) with full speech tag support. Follows current SillyTavern TTS template.",
+  "js": ["index.js"],
+  "css": [],
+  "settings": true
+}
