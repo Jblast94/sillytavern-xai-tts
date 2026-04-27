@@ -1,0 +1,26 @@
+<div class="extension_block">
+    <h3>xAI TTS</h3>
+    <p><strong>Note:</strong> API key is stored in browser only.</p>
+    
+    <label><input type="checkbox" id="xai_enabled"> Enable xAI TTS</label><br><br>
+    
+    <label>xAI API Key (starts with xai-)</label>
+    <input type="password" id="xai_api_key" class="text_pole" placeholder="xai-..." style="width:100%"><br><br>
+    
+    <label>Default Voice</label>
+    <select id="xai_voice" class="text_pole">
+        <option value="Eve">Eve - Energetic & upbeat</option>
+        <option value="Ara">Ara - Warm & friendly</option>
+        <option value="Leo">Leo - Authoritative & strong</option>
+        <option value="Rex">Rex - Confident & clear</option>
+        <option value="Sal">Sal - Smooth & balanced</option>
+    </select><br><br>
+    
+    <label>Test Text</label>
+    <textarea id="xai_test_text" class="text_pole" rows="3">Hello from xAI inside SillyTavern! This is a [laugh] test with speech tags.</textarea><br>
+    <button id="xai_test_btn" class="menu_button">Test TTS</button>
+    
+    <small style="display:block; margin-top:15px; opacity:0.8;">
+        Speech tags fully supported ([laugh], [pause], &lt;whisper&gt;text&lt;/whisper&gt;, &lt;slow&gt;, etc.)
+    </small>
+</div>
